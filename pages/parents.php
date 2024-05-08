@@ -356,7 +356,7 @@
                 <tr>
           <?php
           require_once("concection.php");
-          $result = mysqli_query($con, "SELECT * FROM Sections ");
+          $result = mysqli_query($con, "SELECT * FROM Sections");
 
           while ($lop = mysqli_fetch_array($result)) {
           ?>
