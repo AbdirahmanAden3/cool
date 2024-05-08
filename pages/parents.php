@@ -343,18 +343,17 @@
       </div>
     </a>
     <!-- conntenst-->
-    <div class="container" style="background:white;">
-      <table id="example" class="cell-border bg-text-white " style="width:100%">
-        <thead>
-          <tr>
-            <th>#NO</th>
-            <th>SectionName</th>
-            <th>Abbr</th>
-            <th>Actions</th>
-
-          </tr>
-        </thead>
-        <tr>
+            <div class="container" style="background:white;">
+              <table id="example" class="cell-border bg-text-primary"  >
+                <thead>
+                  <tr>
+                    <th>NO</th>
+                    <th>Name</th>
+                    <th>Abbr</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tr>
           <?php
           require_once("concection.php");
           $result = mysqli_query($con, "SELECT * FROM Sections ");
@@ -362,12 +361,9 @@
           while ($lop = mysqli_fetch_array($result)) {
           ?>
         <tr>
-
           <td><?php echo $lop['id'] ?></td>
           <td><?php echo $lop['className'] ?></td>
           <td><?php echo $lop['Abrr'] ?></td>
-
-
         </tr>
       <?php
           }

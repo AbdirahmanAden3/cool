@@ -255,8 +255,8 @@
     <!-- End Navbar -->
 
 
-    <!-- start here view attedance-->
-    <table class="table table-dark">
+ <!-- start here view attedance -->
+ <table class="table table-dark">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -272,7 +272,7 @@
   <tbody>
    
   </tbody>
-</table>
+</table> 
 
 
 

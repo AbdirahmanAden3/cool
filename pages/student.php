@@ -62,12 +62,6 @@
   <!-- font icons -->
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
-
-        <div class="spinner-border" role="status">
-        <span class="visually-hidden">Loading...</span>
-      </div>
-
-
 <body class="g-sidenav-show  bg-gray-200">
 
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
@@ -98,7 +92,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="attedance.php">
+          <a class="nav-link text-white " href="">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <span class="material-symbols-outlined">how_to_reg
               </span>

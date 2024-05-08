@@ -196,7 +196,7 @@ require_once("concection.php")
 
     ?>
     <!-- Start  Your Content From Here -->
-
+<!-- 
     <div class="container">
         <div class="container" style="margin-left: 320px; width: 70%;">
             <form method="post">
@@ -273,7 +273,7 @@ require_once("concection.php")
 
                             </select> -->
 
-    </div>
+    </div> -->
 
 
 
